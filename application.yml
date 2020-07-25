@@ -5,7 +5,7 @@ eureka:
 
 
 
-gateway.ip: '127.0.0.1'
+#gateway.ip: '127.0.0.1'
 
 
 api:
