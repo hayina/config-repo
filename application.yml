@@ -7,6 +7,13 @@ eureka:
 
 gateway.ip: '127.0.0.1'
 
+
+api:
+  login:
+    url: '/project-app/api/login'
+  actuator:
+    url: '/project-app/actuator/*'
+
 # 3600000 = 1 hour - 86,400,000 = 1 day
 security:
   token:
